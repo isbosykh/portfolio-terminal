@@ -19,9 +19,29 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   overflow: hidden;
+  height: 100%;
+  padding: 10px;
   a {
     color: inherit;
     cursor: pointer;
+  }
+  header {
+    font-size: 2rem;
+    text-align: left;
+  }
+
+  hr {
+    width: 30px;
+    float: left;
+    border: lawngreen solid 2px;
+  }
+  .backBtn {
+    position: relative;
+    display: block;
+    bottom: 0;
+    right: 0;
+    margin-top: 2rem;
+    font-size: 2rem;
   }
 }
 </style>
