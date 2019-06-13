@@ -1,13 +1,15 @@
 <template>
   <div>
     <header>PROJECT.NAME</header>
+    <h4>VUE.JS</h4>
     <hr />
-    <div class="menu">
-      <router-link to="/main">VANILLA</router-link>
-      <router-link to="/main">VUE.JS</router-link>
-      <router-link to="/main">BOOTSTRAP</router-link>
-      <router-link to="/main">GOVNO</router-link>
+    <div class="text">
+      <p>
+        <br />HERE IS DESCRIPTION OF PROJECT THAT DEVELOPED ON "FRAMEWORK OR
+        TECHNOLOGY NAME". <br /><br /><a href="">REPOSITORY.LINK</a>
+      </p>
     </div>
+    <router-link to="/projects" class="backBtn">BACK</router-link>
     <Copyright />
   </div>
 </template>
@@ -24,13 +26,19 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-.menu {
-  display: flex;
-  flex-direction: column;
+hr {
+  width: 30px;
+  float: left;
+  border: lawngreen solid 2px;
+}
+
+.text {
   text-align: left;
   width: 100%;
   background-color: black;
   font-size: 1.5rem;
-  line-height: 2.5rem;
+  p {
+    margin: 0;
+  }
 }
 </style>

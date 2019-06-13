@@ -6,7 +6,6 @@
 
 <style lang="scss">
 body {
-  height: 100%;
   margin: 0;
   background-color: black;
   color: lawngreen !important;
@@ -19,7 +18,6 @@ body {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   overflow: hidden;
-  height: 100%;
   padding: 10px;
   a {
     color: inherit;
@@ -29,19 +27,28 @@ body {
     font-size: 2rem;
     text-align: left;
   }
-
   hr {
     width: 30px;
     float: left;
     border: lawngreen solid 2px;
   }
+  h4 {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    font-weight: lighter;
+  }
   .backBtn {
-    position: relative;
+    position: absolute;
     display: block;
     bottom: 0;
     right: 0;
-    margin-top: 2rem;
+    margin: 2rem;
     font-size: 2rem;
+  }
+  @media screen and (min-width: 800px) {
+    width: 800px;
+    margin: auto;
   }
 }
 </style>

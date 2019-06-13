@@ -3,7 +3,7 @@
     <header>PROJECTS</header>
     <hr />
     <div class="menu">
-      <br /><span>VANILLA</span><br />
+      <br /><router-link to="/project">VANILLA</router-link><br />
       <span>NE VANIKLLA</span><br />
       <span>KILLA KILLA</span><br />
       <span>KUKLA CHACKI</span>

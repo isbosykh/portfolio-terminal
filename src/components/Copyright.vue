@@ -13,6 +13,7 @@ span {
   display: block;
   position: absolute;
   bottom: 0;
+  right: 0;
   font-size: 1rem;
   margin-top: 2rem;
 }

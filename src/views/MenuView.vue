@@ -6,7 +6,7 @@
       <br /><router-link to="/projects">PROJECTS</router-link><br />
       <router-link to="/biography">BIOGRAPHY</router-link><br />
       <router-link to="/">JOB EXPERIENCE</router-link><br />
-      <router-link to="/">CONTACTS</router-link>
+      <router-link to="/contacts">CONTACTS</router-link>
     </div>
     <router-link to="/" class="backBtn">BACK</router-link>
     <Copyright />

@@ -4,6 +4,8 @@ import MainView from "./views/MainView";
 import MenuView from "./views/MenuView";
 import ProjectsView from "./views/ProjectsView";
 import BiographyView from "./views/BiographyView";
+import ContactsView from "@/views/ContactsView";
+import ProjectView from "@/views/ProjectView";
 
 Vue.use(Router);
 
@@ -26,13 +28,23 @@ export default new Router({
     },
     {
       path: "/projects",
-      mame: "projectsPage",
+      name: "projectsPage",
       component: ProjectsView
     },
     {
+      path: "/project",
+      name: "projectPage",
+      component: ProjectView
+    },
+    {
       path: "/biography",
-      mame: "biographyPage",
+      name: "biographyPage",
       component: BiographyView
+    },
+    {
+      path: "/contacts",
+      name: "contactsPage",
+      component: ContactsView
     }
   ]
 });
