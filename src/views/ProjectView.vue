@@ -9,17 +9,11 @@
         TECHNOLOGY NAME". <br /><br /><a href="">REPOSITORY.LINK</a>
       </p>
     </div>
-    <Copyright />
   </div>
 </template>
 
 <script>
-import Copyright from "@/components/Copyright";
-
 export default {
-  name: "MainView",
-  components: {
-    Copyright
-  }
+  name: "MainView"
 };
 </script>

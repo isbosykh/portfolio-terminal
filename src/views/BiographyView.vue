@@ -21,24 +21,14 @@
         SUCCESFUL AND USEFUL STUDY. I HADN'T MUCH IN IT FOR THAT TIME.
         <br /><br />
 
-        BUT IN OCTOBER 2018, I WENT IN THE OFFICE AND SAID "I WILL BE HERE TO
-        WORK". THAT WAS MY COMRADE'S DIGITAL STUDIO AND THIS WAS BEGINNING TO
-        THE BEGINNING OF MY ACQUAINTANCE WITH FRONTEND. <br /><br />
-
         THROUGH THIS ABOUT ONE YEAR I'VE BEEN INTERESTED
       </p>
     </div>
-    <Copyright />
   </div>
 </template>
 
 <script>
-import Copyright from "@/components/Copyright";
-
 export default {
-  name: "MainView",
-  components: {
-    Copyright
-  }
+  name: "MainView"
 };
 </script>

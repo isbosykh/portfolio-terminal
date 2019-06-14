@@ -4,7 +4,6 @@
     <hr />
     <div class="text">
       <h3>WN Studio</h3>
-
       <span>Frontend Developer</span>
       <p>
         <br />
@@ -16,17 +15,12 @@
         Stack: Vue.js, HTML, CSS, JS, jQuery, AJAX, SCSS.
       </p>
     </div>
-    <Copyright />
   </div>
 </template>
 
 <script>
-import Copyright from "@/components/Copyright";
 export default {
-  name: "ExperienceView",
-  components: {
-    Copyright
-  }
+  name: "ExperienceView"
 };
 </script>
 

@@ -13,17 +13,11 @@
         PRESS <router-link to="menu">ENTER</router-link> TO BEGIN.
       </p>
     </div>
-    <Copyright />
   </div>
 </template>
 
 <script>
-import Copyright from "@/components/Copyright";
-
 export default {
-  name: "MainView",
-  components: {
-    Copyright
-  }
+  name: "MainView"
 };
 </script>

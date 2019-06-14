@@ -12,12 +12,6 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-div {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  margin: 10px;
-}
 span {
   display: block;
   font-size: 1rem;

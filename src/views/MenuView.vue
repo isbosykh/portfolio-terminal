@@ -9,17 +9,11 @@
       <router-link to="/experience">JOB EXPERIENCE</router-link>
       <router-link to="/contacts">CONTACTS</router-link>
     </div>
-
-    <Copyright />
   </div>
 </template>
 
 <script>
-import Copyright from "@/components/Copyright";
 export default {
-  name: "MainView",
-  components: {
-    Copyright
-  }
+  name: "MainView"
 };
 </script>

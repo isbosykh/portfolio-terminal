@@ -1,10 +1,17 @@
 <template>
   <div id="app">
     <router-view />
+    <Copyright />
   </div>
 </template>
 
 <style lang="scss">
+html,
+body,
+#app {
+  height: 100%;
+}
+
 body {
   margin: 0;
   background-color: black;
@@ -14,7 +21,12 @@ body {
 #app {
   text-transform: uppercase;
   font-family: "vt323", sans-serif;
-  padding: 10px;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+  > div:first-child {
+    flex: 1;
+  }
 
   a {
     color: inherit;
@@ -71,3 +83,9 @@ body {
   }
 }
 </style>
+<script>
+import Copyright from "@/components/Copyright";
+export default {
+  components: { Copyright }
+};
+</script>

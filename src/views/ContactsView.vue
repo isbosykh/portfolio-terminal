@@ -13,21 +13,23 @@
       <span
         >HEADHUNTER:
         <a href="https://hh.ru/resume/ea20134dff063d82590039ed1f587a7a6d5349"
-          >headhunter .link</a
+          >headhunter.link</a
         ></span
       >
     </div>
-    <Copyright />
   </div>
 </template>
 
 <script>
-import Copyright from "@/components/Copyright";
-
 export default {
-  name: "MainView",
-  components: {
-    Copyright
-  }
+  name: "MainView"
 };
 </script>
+
+<style lang="scss">
+.content {
+  > span {
+    font-size: 1.5rem;
+  }
+}
+</style>
