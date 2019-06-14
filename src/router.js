@@ -6,6 +6,7 @@ import ProjectsView from "./views/ProjectsView";
 import BiographyView from "./views/BiographyView";
 import ContactsView from "@/views/ContactsView";
 import ProjectView from "@/views/ProjectView";
+import ExperienceView from "@/views/ExperienceView";
 
 Vue.use(Router);
 
@@ -45,6 +46,11 @@ export default new Router({
       path: "/contacts",
       name: "contactsPage",
       component: ContactsView
+    },
+    {
+      path: "/experience",
+      name: "experiencePage",
+      component: ExperienceView
     }
   ]
 });

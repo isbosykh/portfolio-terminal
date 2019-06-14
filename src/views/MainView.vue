@@ -27,21 +27,3 @@ export default {
   }
 };
 </script>
-
-<style lang="scss" scoped>
-hr {
-  width: 30px;
-  float: left;
-  border: lawngreen solid 2px;
-}
-
-.text {
-  text-align: left;
-  width: 100%;
-  background-color: black;
-  font-size: 1.5rem;
-  p {
-    margin: 0;
-  }
-}
-</style>
